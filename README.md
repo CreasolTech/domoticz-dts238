@@ -26,7 +26,7 @@ Please note that it's possible to easily connect many DTS238 ZN/S meters to the 
 Also, it's possible to connect different devices to the same Modbus, managed by different plugins (for example DTS238 + DDS238 meters, PZEM meters, ...): plugin automatically detect access collision and set the new poll interval in a random way to limit collisions.
 
 ![DTS238-2 ZN/S three phase energy meter](https://images.creasol.it/dts238-4_zns_2.webp "DTS238-4 ZN/S three phase energy meter")
-![DTS238-2 ZN/S three phase energy meter](https://images.creasol.it/dts238-4_zns.webp "DTS238-4 ZN/S three phase energy meter")
+![DTS238-2 ZN/S three phase energy meter](https://images.creasol.it/dts238-4_zns_wiring.webp "DTS238-4 ZN/S three phase energy meter")
 
 ## Setting a different address for the meter
 
