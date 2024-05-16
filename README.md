@@ -1,5 +1,7 @@
 # domoticz-dts238 
 
+DTS238 ZN/S is a Class 1 (1% accuracy) power and energy meter for three-phase 400V 100A max, with Modbus RTU bus and additional pulsed output.
+
 This is a plugin for the free open-source [Domoticz home automation system](https://www.domoticz.com) that **read one or more DTS238 ZN/S three-phase energy meters by Modbus connection** (RS485 serial connection), providing the following data: 
 * total active energy (imported + exported energy)
 * import active energy and power
@@ -10,6 +12,8 @@ This is a plugin for the free open-source [Domoticz home automation system](http
 * current on each phase
 * frequency
 * power factor, total and per phase
+
+![DTS238-2 ZN/S three phase energy meter, managed by Domoticz home automation system](https://images.creasol.it/dts238-4_zns_panel.webp "DTS238-4 ZN/S three phase energy meter panel on Domoticz")
 
 
 It's possible to configure:

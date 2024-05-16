@@ -76,10 +76,10 @@ DEVS={ #unit:     Type,Sub,swtype, Options, Image,  "en name", "it name"  ...oth
            13:  [ 243,29,0,     {'EnergyMeterMode':'1'}, None,  "Apparent Power L1",    "Potenza apparente L1",         ],
            14:  [ 243,29,0,     {'EnergyMeterMode':'1'}, None,  "Apparent Power L2",    "Potenza apparente L2",         ],
            15:  [ 243,29,0,     {'EnergyMeterMode':'1'}, None,  "Apparent Power L3",    "Potenza apparente L3",         ],
-           16:  [ 243,31,0,     None,                   None,   "Power Factor",         "Fattore di Potenza",           ],
-           17:  [ 243,31,0,     None,                   None,   "Power Factor L1",      "Fattore di Potenza L1",        ],
-           18:  [ 243,31,0,     None,                   None,   "Power Factor L2",      "Fattore di Potenza L2",        ],
-           19:  [ 243,31,0,     None,                   None,   "Power Factor L3",      "Fattore di Potenza L3",        ],
+           16:  [ 243,31,0,     {'Custom':'1;%'},     None,   "Power Factor",         "Fattore di Potenza",           ],
+           17:  [ 243,31,0,     {'Custom':'1;%'},       None,   "Power Factor L1",      "Fattore di Potenza L1",        ],
+           18:  [ 243,31,0,     {'Custom':'1;%'},       None,   "Power Factor L2",      "Fattore di Potenza L2",        ],
+           19:  [ 243,31,0,     {'Custom':'1;%'},       None,   "Power Factor L3",      "Fattore di Potenza L3",        ],
            20:  [ 243,8,0,      None,                   None,   "Voltage L1",           "Tensione L1",                  ],
            21:  [ 243,8,0,      None,                   None,   "Voltage L2",           "Tensione L2",                  ],
            22:  [ 243,8,0,      None,                   None,   "Voltage L3",           "Tensione L3",                  ],
@@ -159,6 +159,7 @@ class BasePlugin:
                                 Devices[unit].Update(0, "0;0")
                                 Devices[unit].Update(0, "0;0", Options=Options)
                             else:
+
                                 Devices[unit].Update(0, "0", Options=Options)
                 s+=DEVSMAX
 
