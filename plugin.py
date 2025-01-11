@@ -105,7 +105,7 @@ class BasePlugin:
         self.rs485.serial.parity = minimalmodbus.serial.PARITY_NONE
         self.rs485.serial.stopbits = 1
         self.rs485.serial.timeout = 0.5
-        self.rs485.serial.exclusive = True 
+        self.rs485.serial.exclusive = False
         self.rs485.debug = True
         self.rs485.mode = minimalmodbus.MODE_RTU
         self.rs485.close_port_after_each_call = True
