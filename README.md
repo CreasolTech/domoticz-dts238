@@ -139,6 +139,8 @@ Includes:
 * 2 ports are configured by default as open-drain output and can drive up to 200mA led strip (with dimming function) or can be connected to the external module DomRelay2 to control 2 relays.
 <br clear="all"/>
 
+
+
 ### DomBus21 - Latching relays domotic module
 <a href="https://store.creasol.it/DomBus21"><img src="https://images.creasol.it/creDomBus21_400.webp" alt="DomBus21 domotic module with 3 latching relays, 1 AC input and 4 low voltage inputs" style="float: left; margin-right: 2em; vertical-align: middle;" align="left" /></a>
 Very compact domotic module providing:
